@@ -72,7 +72,8 @@ footer {
     text-align: left;
     line-break: auto;
     padding: 2%;
-    background-color: #ccc;
+    background-color: #d8d8d8;
+    color: black;
     margin: 10px;
 }
 .paragraph {
