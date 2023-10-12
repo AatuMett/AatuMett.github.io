@@ -59,19 +59,35 @@ footer {
 .header {
     flex: 1;
     text-align: center;
+    font-size: large;
+    margin: 10px;
+}
+
+.info-container{
+    display: flex;
+}
+
+.info {
+    flex: 1;
+    text-align: left;
+    line-break: auto;
+    padding: 2%;
     background-color: #ccc;
     margin: 10px;
+}
+.paragraph {
+    margin-bottom: 20px;
 }
 
 .video-container {
     display: flex;
-    justify-content: space-between; /* Align videos evenly with headers */
-    align-items: center; /* Vertically center videos within the container */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 video {
-    max-width: 45%;
-    margin: 15px; /* Limit the width of each video to fit within the container */
+    max-width: 47%;
+    margin: 15px; 
 }
 
 
