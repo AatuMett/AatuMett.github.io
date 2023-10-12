@@ -1,7 +1,7 @@
 /* Reset some default styles */
 body, h1, h2, p, ul, li, a {
     margin: 0;
-    padding: 0;
+    padding-bottom: 10px;
     list-style: none;
     text-decoration: none;
 }
