@@ -126,7 +126,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #404041;
 }
 
 table {
@@ -149,5 +149,14 @@ td {
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+
+.popup-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
