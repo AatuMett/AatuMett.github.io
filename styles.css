@@ -159,4 +159,27 @@ tr:nth-child(even) {
     border-radius: 5px;
     cursor: pointer;
 }
+.time-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timer-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.java-container {
+    display: flex;
+    padding: 15px;
+}
+
 
