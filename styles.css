@@ -1,5 +1,11 @@
 /* Reset some default styles */
-body, h1, h2, p, ul, li, a {
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
     margin: 0;
     padding-bottom: 10px;
     list-style: none;
@@ -63,7 +69,7 @@ footer {
     margin: 10px;
 }
 
-.info-container{
+.info-container {
     display: flex;
 }
 
@@ -76,19 +82,20 @@ footer {
     color: black;
     margin: 10px;
 }
+
 .paragraph {
     margin-bottom: 20px;
 }
 
 .video-container {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 video {
     max-width: 47%;
-    margin: 15px; 
+    margin: 15px;
 }
 
 form {
@@ -159,6 +166,7 @@ tr:nth-child(even) {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .time-button {
     background-color: #000;
     color: #fff;
@@ -182,4 +190,34 @@ tr:nth-child(even) {
     padding: 15px;
 }
 
+.fruit-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.carousel-container {
+    width: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel-slide {
+    display: none;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.carousel-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+}
