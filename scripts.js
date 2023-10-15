@@ -51,10 +51,8 @@ function showSlide(index) {
     }
 
     slides[slideIndex].style.display = 'block';
-}
 
-function prevSlide() {
-    showSlide(--slideIndex);
+    setTimeout(nextSlide, 5000);
 }
 
 function nextSlide() {
