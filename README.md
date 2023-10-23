@@ -1,4 +1,4 @@
-# Portfolio!
+# Portfolio
 
 # HTML
 1. **Basic HTML structure is present**
